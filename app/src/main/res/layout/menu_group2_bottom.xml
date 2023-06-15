@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <tag android:id="@+id/menu_group2_bottom"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</menu>

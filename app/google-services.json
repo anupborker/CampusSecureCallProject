@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "981003469836",
+    "firebase_url": "https://testprojectcampus-default-rtdb.firebaseio.com",
+    "project_id": "testprojectcampus",
+    "storage_bucket": "testprojectcampus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981003469836:android:7a55bb337c496c62669a29",
+        "android_client_info": {
+          "package_name": "com.avb.campussekure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981003469836-2undcchmt1o752tmrpcsm0j6kt0urn45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRBq5XuOo-dhyQVhFopmOZfiOcN9E5y0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981003469836-2undcchmt1o752tmrpcsm0j6kt0urn45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981003469836:android:eca0e2ef053cc259669a29",
+        "android_client_info": {
+          "package_name": "com.avb.collageproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981003469836-2undcchmt1o752tmrpcsm0j6kt0urn45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRBq5XuOo-dhyQVhFopmOZfiOcN9E5y0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981003469836-2undcchmt1o752tmrpcsm0j6kt0urn45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

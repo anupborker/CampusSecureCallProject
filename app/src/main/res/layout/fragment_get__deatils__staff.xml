@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Get_Deatils_StaffFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="77dp"
+            android:gravity="top"
+            android:lineSpacingExtra="4sp"
+
+            android:textAppearance="@style/back"
+            android:translationY="-2.17sp" />
+
+        <TextView
+            android:id="@+id/staff_det"
+            style="@style/student_det"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/back"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="75dp"
+            android:gravity="center_vertical"
+            android:text="@string/get_details"
+            android:textStyle="bold"
+            android:translationY="-5.07sp" />
+
+        <TextView
+            android:id="@+id/enter_StaffUID_"
+            android:layout_width="169dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="303dp"
+            android:gravity="top"
+            android:lineSpacingExtra="6sp"
+            android:text="Staff UID"
+            android:textAppearance="@style/enter_roll_"
+            android:translationY="-2.9sp" />
+
+        <EditText
+            android:id="@+id/staffget1_details_input"
+            android:layout_width="@dimen/_258sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_255sdp"
+            android:background="@drawable/edit_inpuit_rectangle"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/staffget1_details"
+            android:layout_width="@dimen/_260sdp"
+            android:layout_marginLeft="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_350sdp"
+
+            android:layout_height="61dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:backgroundTint="@color/black"
+            android:text="@string/get_details"
+            android:textColor="@color/white"
+
+
+            />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

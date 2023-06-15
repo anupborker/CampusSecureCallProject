@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentAddDetailsFormFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+        <TextView
+        android:id="@+id/student_det"
+        style="@style/student_det"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity=""
+        android:layout_marginLeft="@dimen/_55sdp"
+        android:layout_marginTop="@dimen/_85sdp"
+        android:gravity="center_vertical"
+        android:text="@string/add_delete_"
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="bold"
+
+        android:translationY="-5.07sp" />
+
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:gravity="top"
+        android:lineSpacingExtra="6sp"
+        android:text="Name:"
+        android:textAppearance="@style/email_"
+        android:textStyle="bold"
+        android:translationY="-2.9sp" />
+
+    <EditText
+        android:id="@+id/studentNameInput"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_33sdp"
+        android:layout_marginTop="@dimen/_170sdp"
+        android:background="@drawable/from_rectangle" />
+
+    <TextView
+        android:id="@+id/studentRollNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_220sdp"
+        android:gravity="top"
+        android:lineSpacingExtra="6sp"
+        android:text="RollNo:"
+        android:textAppearance="@style/email_"
+        android:translationY="-2.9sp" />
+
+    <EditText
+        android:id="@+id/studentRollnoInput"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_33sdp"
+        android:layout_marginTop="@dimen/_240sdp"
+        android:background="@drawable/from_rectangle" />
+
+    <TextView
+        android:id="@+id/studentAcedemicYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_290sdp"
+        android:gravity="top"
+        android:lineSpacingExtra="6sp"
+        android:text="AcedemicYear:"
+        android:textAppearance="@style/email_"
+        android:translationY="-2.9sp" />
+
+    <EditText
+        android:id="@+id/studentAcedemicYearInput"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_33sdp"
+        android:layout_marginTop="@dimen/_310sdp"
+        android:background="@drawable/from_rectangle" />
+
+    <TextView
+        android:id="@+id/studentAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_360sdp"
+        android:gravity="top"
+        android:lineSpacingExtra="6sp"
+        android:text="Address:"
+        android:textAppearance="@style/email_"
+        android:translationY="-2.9sp" />
+
+    <EditText
+        android:id="@+id/studentAddressInput"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_33sdp"
+        android:layout_marginTop="@dimen/_380sdp"
+        android:background="@drawable/from_rectangle" />
+
+    <TextView
+        android:id="@+id/studentContactNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_430sdp"
+        android:gravity="top"
+        android:lineSpacingExtra="6sp"
+        android:text="ContactNo:"
+        android:textAppearance="@style/email_"
+        android:translationY="-2.9sp" />
+
+    <EditText
+        android:id="@+id/studentContactNoInput"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_33sdp"
+        android:layout_marginTop="@dimen/_450sdp"
+        android:background="@drawable/from_rectangle" />
+
+    <TextView
+        android:id="@+id/studentSemester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_500sdp"
+        android:gravity="top"
+        android:lineSpacingExtra="6sp"
+        android:text="Semester:"
+        android:textAppearance="@style/email_"
+        android:translationY="-2.9sp" />
+
+    <EditText
+        android:id="@+id/studentSemesterInput"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_33sdp"
+        android:layout_marginTop="@dimen/_520sdp"
+        android:background="@drawable/from_rectangle"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/studentfaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_570sdp"
+        android:gravity="top"
+        android:lineSpacingExtra="6sp"
+        android:text="Faculty:"
+        android:textAppearance="@style/email_"
+        android:translationY="-2.9sp" />
+
+    <EditText
+        android:id="@+id/studentFacultyInput"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_38sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/_33sdp"
+        android:layout_marginTop="@dimen/_600sdp"
+        android:background="@drawable/from_rectangle" />
+
+    <LinearLayout
+        android:layout_marginRight="@dimen/_14sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="@dimen/_minus2sdp"
+        android:layout_below="@+id/studentFacultyInput"
+        >
+
+        <Button
+            android:id="@+id/studentdbform_AddBtn"
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:text="ADD"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+
+
+            />
+
+
+        <Button
+            android:id="@+id/studentdbform_Deletebtn"
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:text="DELETE"
+            android:backgroundTint="@color/black"
+            />
+
+        <Button
+            android:id="@+id/studentdbform_Updatebtn"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:backgroundTint="@color/black"
+            android:text="UPDATE"
+
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
+    </ScrollView>

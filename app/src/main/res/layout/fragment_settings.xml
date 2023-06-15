@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logomakr_1_"
+
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center"
+            android:text="Settings"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/setting_image"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_margin="@dimen/_50sdp"
+            android:src="@color/black" />
+
+        <TextView
+            android:id="@+id/email_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/_75sdp"
+            android:gravity="top"
+            android:lineSpacingExtra="6sp"
+            android:text="Name:"
+            android:textAppearance="@style/email_"
+            android:translationY="-2.9sp" />
+
+        <EditText
+
+            android:id="@+id/setting_name"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rectangle"
+            android:gravity="center"
+
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_55sdp"
+            android:gravity="top"
+            android:lineSpacingExtra="6sp"
+            android:text="Designation:"
+            android:textAppearance="@style/email_"
+            android:translationY="-2.9sp" />
+
+        <EditText
+
+            android:id="@+id/setting_designation"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rectangle"
+            android:gravity="center"
+            android:textColor="@color/black" />
+
+        <Button
+
+            android:id="@+id/setting_save_button"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:backgroundTint="@color/black"
+            android:text="SAVE"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+
+</FrameLayout>

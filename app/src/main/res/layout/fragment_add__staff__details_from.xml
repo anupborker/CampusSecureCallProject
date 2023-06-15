@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_Staff_Details_fromFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/nonteachingstaffs_det"
+                style="@style/student_det"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity=""
+                android:layout_marginLeft="@dimen/_55sdp"
+                android:layout_marginTop="@dimen/_85sdp"
+                android:gravity="center_vertical"
+                android:text="@string/add_delete_"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold"
+                android:translationY="-5.07sp" />
+
+            <TextView
+                android:id="@+id/nonteachingstaffName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_150sdp"
+                android:gravity="top"
+                android:lineSpacingExtra="6sp"
+                android:text="Name:"
+                android:textAppearance="@style/email_"
+                android:textStyle="bold"
+                android:translationY="-2.9sp" />
+
+            <EditText
+                android:id="@+id/nonteachingstaffNameInput"
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/_33sdp"
+                android:layout_marginTop="@dimen/_170sdp"
+                android:background="@drawable/from_rectangle"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/nonteachingstaffUID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_220sdp"
+                android:gravity="top"
+                android:lineSpacingExtra="6sp"
+                android:text="U ID:"
+                android:textAppearance="@style/email_"
+                android:textStyle="bold"
+                android:translationY="-2.9sp" />
+
+            <EditText
+                android:id="@+id/nonteachingstaffUIDInput"
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:textColor="@color/black"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/_33sdp"
+                android:layout_marginTop="@dimen/_240sdp"
+                android:background="@drawable/from_rectangle"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/nonteachingstaffDesignationt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_290sdp"
+                android:gravity="top"
+                android:lineSpacingExtra="6sp"
+                android:text="Designation:"
+                android:textAppearance="@style/email_"
+                android:textStyle="bold"
+                android:translationY="-2.9sp" />
+
+            <EditText
+                android:id="@+id/nonteachingstaffDesignationInput"
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/_33sdp"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/_310sdp"
+                android:background="@drawable/from_rectangle"
+                android:gravity="center" />
+
+
+            <TextView
+                android:id="@+id/nonteachingstaffDepartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_355sdp"
+                android:gravity="top"
+                android:lineSpacingExtra="6sp"
+                android:text="Department:"
+                android:textAppearance="@style/email_"
+                android:textStyle="bold"
+                android:translationY="-2.9sp" />
+
+            <EditText
+                android:id="@+id/nonteachingstaffDepartmentInput"
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="@dimen/_375sdp"
+                android:textColor="@color/black"
+                android:background="@drawable/from_rectangle"
+                android:gravity="center" />
+
+
+            <TextView
+                android:id="@+id/nonteachingstaffContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_420sdp"
+                android:gravity="top"
+                android:lineSpacingExtra="6sp"
+                android:text="Contac No:"
+                android:textAppearance="@style/email_"
+                android:textStyle="bold"
+                android:translationY="-2.9sp" />
+
+            <EditText
+                android:id="@+id/nonteachingstaffContactInput"
+                android:layout_width="@dimen/_260sdp"
+                android:layout_height="@dimen/_38sdp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/_33sdp"
+                android:layout_marginTop="@dimen/_440sdp"
+                android:textColor="@color/black"
+                android:background="@drawable/from_rectangle"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:id="@+id/NonteachingstaffbelowLL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nonteachingstaffContactInput"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NonteachingstaffAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="top"
+                    android:lineSpacingExtra="6sp"
+                    android:text="Address:"
+                    android:textAppearance="@style/email_"
+                    android:textStyle="bold"
+                    android:translationY="-2.9sp" />
+
+                <EditText
+                    android:id="@+id/NonteachingstaffAddressInput"
+                    android:layout_width="@dimen/_260sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/_33sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:background="@drawable/from_rectangle"
+                    android:gravity="center"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/NonteachingstaffbelowLL"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp">
+
+                <Button
+                    android:id="@+id/NonteachingstaffsDetails_addbtn"
+                    android:layout_width="@dimen/_85sdp"
+                    android:layout_height="@dimen/_33sdp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:backgroundTint="@color/black"
+                    android:text="ADD"
+                    android:textColor="@color/white"
+
+
+                    />
+
+
+                <Button
+                    android:id="@+id/NonteachingstaffsDetails_Deletebtn"
+                    android:layout_width="@dimen/_85sdp"
+                    android:layout_height="@dimen/_33sdp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/_10sdp"
+
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:backgroundTint="@color/black"
+                    android:text="DELETE"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/NonteachingstaffsDetails_Updatebtn"
+                    android:layout_width="@dimen/_85sdp"
+                    android:layout_height="@dimen/_33sdp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:backgroundTint="@color/black"
+                    android:text="UPDATE"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</ScrollView>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Show_teachers_detailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="58dp"
+            android:gravity="fill_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/teachershowdetailImage"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginLeft="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:src="@drawable/group_7" />
+
+            <TextView
+
+                android:id="@+id/teachershowdetailName"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:gravity="top"
+                android:lineSpacingExtra="6sp"
+                android:text="@string/nihaal_sudh"
+                android:textAppearance="@style/nihaal_sudh"
+                android:textStyle="bold"
+                android:translationY="-2.9sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_20sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UID:"
+
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/teachershowdetailUID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="s20-503"
+                    android:textColor="#E87B8171"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_20sdp">>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Designation:"
+
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/teachershowdetailDesignation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="T.Y.BSC:"
+                    android:textColor="#E87B8171"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_20sdp">>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Department:"
+
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/teachershowdetailDepartment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="V"
+                    android:textColor="#E87B8171"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_20sdp">>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contac:"
+
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/teachershowdetailscontactNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="987354321"
+                    android:textColor="#E87B8171"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_120sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address:"
+
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/teachershowdetailAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="Ponda_goag "
+                    android:textColor="#E87B8171"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

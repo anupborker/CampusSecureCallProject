@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportFragment"
+    >
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/teachers_details"
+        style="@style/student_det"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_72sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:gravity="center_vertical"
+        android:text="Teacher Details"
+        android:textSize="@dimen/_25sdp"
+        android:translationY="-5.07sp" />
+
+    <Button
+
+        android:id="@+id/TeachersDetails_addbtn1"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/_28sdp"
+        android:layout_marginTop="@dimen/_200sdp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="@string/add_delete_"
+        />
+
+    <Button
+        android:id="@+id/TeachersDetails_getdetailsbtn"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/_28sdp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_300sdp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="@string/get_details"
+        />
+
+    <Button
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/TeachersDetails_viewbtn"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/_28sdp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_400sdp"
+        android:backgroundTint="@color/black"
+        android:text="@string/view_all"
+        android:textColor="@color/white"
+
+        />
+
+</FrameLayout>

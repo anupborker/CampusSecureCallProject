@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_176sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="top"
+
+    android:orientation="horizontal"
+    android:background="@drawable/menuheader"
+    android:padding="@dimen/_17sdp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        app:cardCornerRadius="@dimen/_100sdp"
+        >
+
+        <ImageView
+            android:id="@+id/menu_image_111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:src="@mipmap/ic_launcher"
+
+
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/menu_name_111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            android:lineSpacingExtra="9sp"
+            android:text="@string/name"
+            android:textAppearance="@style/name"
+            />
+
+        <TextView
+
+            android:id="@+id/menu_desgination_111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            android:lineSpacingExtra="9sp"
+            android:text="@string/prof"
+            android:textAppearance="@style/prof" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

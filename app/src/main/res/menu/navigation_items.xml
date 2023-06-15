@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuReport"
+        android:title="REPORT"
+        android:icon="@drawable/report"/>
+    <item
+        android:id="@+id/menuStudent"
+        android:title="STUDENT"
+        android:icon="@drawable/student"/>
+    <item
+        android:id="@+id/menuFaculty"
+        android:title="FACULTY"
+        android:icon="@drawable/faculty"/>
+    <item
+        android:id="@+id/menuStaff"
+        android:title="STAFF"
+        android:icon="@drawable/staff"/>
+    <item
+        android:id="@+id/menusSettings"
+        android:title="SETTINGS"
+        android:icon="@drawable/settings"/>
+
+    <item
+        android:title=""
+        android:enabled="false"
+        /><item
+        android:title=""
+        android:enabled="false"
+        /><item
+        android:title=""
+        android:enabled="false"
+        /><item
+        android:title=""
+        android:enabled="false"
+        />
+    <item
+        android:id="@+id/menuHelpcenter"
+        android:title="SUPPORT"
+        android:icon="@drawable/helpcenter"/>
+    <item
+        android:id="@+id/menuLogout"
+        android:title="LOGOUT"
+        android:icon="@drawable/logout"/>
+    <group android:id="@+id/menu_group"
+
+        >
+        <!-- Other menu items go here -->
+        <item
+            android:id="@+id/menuNightMode"
+            android:title="Night Mode"
+            android:icon="@drawable/nightmode"
+            app:actionViewClass="androidx.appcompat.widget.SwitchCompat"
+            app:showAsAction="always" />
+    </group>
+
+
+
+
+</menu>

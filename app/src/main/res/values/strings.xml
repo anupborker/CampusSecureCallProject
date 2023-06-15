@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Campus SeKure</string>
+    <string name="login">LOGIN</string>
+    <string name="back">Back</string>
+    <string name="forgot_pass">Forgot password ?</string>
+    <string name="name">ADMIN</string>
+    <string name="prof">Administrator</string>
+    <string name="OpenDrawer">Open Navigation Drawer</string>
+    <string name="CloseDrawer">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="student_det">Student Details</string>
+    <string name="add_delete_">Add/Delete Details</string>
+    <string name="get_details">Get Details</string>
+    <string name="view_all">View All</string>
+    <string name="enter_roll_">Enter ROLL NO/ID:</string>
+    <!-- strings.xml -->
+    <string name="nihaal_sudh">Nihaal Sudhir Karhadkar</string>
+    <string name="user_name">
+NIHAAL KARHADKAR
+</string>
+
+
+</resources>
